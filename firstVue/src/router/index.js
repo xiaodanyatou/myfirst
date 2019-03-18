@@ -1,9 +1,17 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Index from '@/page/index'
-import Content from '@/page/content'
 
 Vue.use(Router)
+
+/*  */
+import Layout from '@/views/layout/Layout'
+
+/* Router Moudles */
+import componentsRouter from './modules/components'
+import chartsRouter from './modules/charts'
+import tableRouter from './modules/table'
+import treeTableRouter from './modules/tree-table'
+import nestedRouter from './modules/nested'
 
 export default new Router({
     routes:[
